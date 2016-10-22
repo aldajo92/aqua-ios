@@ -7,21 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5418194C7CD0493E6AA5135E /* Pods_Aqua.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A78754529DE0FC60789D532 /* Pods_Aqua.framework */; };
+		D01260C91DBBA621001941E7 /* Helpers+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01260C81DBBA621001941E7 /* Helpers+Extensions.swift */; };
+		D01260CD1DBBD5EB001941E7 /* sk_error.pcm in Resources */ = {isa = PBXBuildFile; fileRef = D01260CA1DBBD5EB001941E7 /* sk_error.pcm */; };
+		D01260CE1DBBD5EB001941E7 /* sk_start.pcm in Resources */ = {isa = PBXBuildFile; fileRef = D01260CB1DBBD5EB001941E7 /* sk_start.pcm */; };
+		D01260CF1DBBD5EB001941E7 /* sk_stop.pcm in Resources */ = {isa = PBXBuildFile; fileRef = D01260CC1DBBD5EB001941E7 /* sk_stop.pcm */; };
+		D0128C8D1DBAD3B8000D770D /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0128C8C1DBAD3B8000D770D /* Animation.swift */; };
+		D09D61F51DBB48140021CC8A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09D61F41DBB48140021CC8A /* NetworkManager.swift */; };
+		D0ACAA571DBB205D002574E3 /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0ACAA4D1DBB205D002574E3 /* Rubik-Black.ttf */; };
+		D0ACAA581DBB205D002574E3 /* Rubik-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0ACAA4E1DBB205D002574E3 /* Rubik-BlackItalic.ttf */; };
+		D0ACAA591DBB205D002574E3 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0ACAA4F1DBB205D002574E3 /* Rubik-Bold.ttf */; };
+		D0ACAA5A1DBB205D002574E3 /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0ACAA501DBB205D002574E3 /* Rubik-BoldItalic.ttf */; };
+		D0ACAA5B1DBB205D002574E3 /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0ACAA511DBB205D002574E3 /* Rubik-Italic.ttf */; };
+		D0ACAA5C1DBB205D002574E3 /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0ACAA521DBB205D002574E3 /* Rubik-Light.ttf */; };
+		D0ACAA5D1DBB205D002574E3 /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0ACAA531DBB205D002574E3 /* Rubik-LightItalic.ttf */; };
+		D0ACAA5E1DBB205D002574E3 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0ACAA541DBB205D002574E3 /* Rubik-Medium.ttf */; };
+		D0ACAA5F1DBB205D002574E3 /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0ACAA551DBB205D002574E3 /* Rubik-MediumItalic.ttf */; };
+		D0ACAA601DBB205D002574E3 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0ACAA561DBB205D002574E3 /* Rubik-Regular.ttf */; };
 		D0B77C671DBA51BB00D2B5AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B77C661DBA51BB00D2B5AF /* AppDelegate.swift */; };
-		D0B77C691DBA51BB00D2B5AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B77C681DBA51BB00D2B5AF /* ViewController.swift */; };
+		D0B77C691DBA51BB00D2B5AF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B77C681DBA51BB00D2B5AF /* MainViewController.swift */; };
 		D0B77C6C1DBA51BB00D2B5AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B77C6A1DBA51BB00D2B5AF /* Main.storyboard */; };
 		D0B77C6E1DBA51BB00D2B5AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B77C6D1DBA51BB00D2B5AF /* Assets.xcassets */; };
 		D0B77C711DBA51BB00D2B5AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B77C6F1DBA51BB00D2B5AF /* LaunchScreen.storyboard */; };
+		D0C9F7BF1DBA62220090C04A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C9F7BE1DBA62220090C04A /* AVFoundation.framework */; };
+		D0C9F7C11DBA62FC0090C04A /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F7C01DBA62FC0090C04A /* SpeechManager.swift */; };
+		D0C9F7C31DBAB0D80090C04A /* SKSConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C9F7C21DBAB0D80090C04A /* SKSConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E64CC4B3327DD3E47B19971 /* Pods-Aqua.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aqua.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aqua/Pods-Aqua.release.xcconfig"; sourceTree = "<group>"; };
+		9A78754529DE0FC60789D532 /* Pods_Aqua.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aqua.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42EB149B0B48BE745F3B01F /* Pods-Aqua.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aqua.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aqua/Pods-Aqua.debug.xcconfig"; sourceTree = "<group>"; };
+		D01260C81DBBA621001941E7 /* Helpers+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Helpers+Extensions.swift"; sourceTree = "<group>"; };
+		D01260CA1DBBD5EB001941E7 /* sk_error.pcm */ = {isa = PBXFileReference; lastKnownFileType = file; path = sk_error.pcm; sourceTree = "<group>"; };
+		D01260CB1DBBD5EB001941E7 /* sk_start.pcm */ = {isa = PBXFileReference; lastKnownFileType = file; path = sk_start.pcm; sourceTree = "<group>"; };
+		D01260CC1DBBD5EB001941E7 /* sk_stop.pcm */ = {isa = PBXFileReference; lastKnownFileType = file; path = sk_stop.pcm; sourceTree = "<group>"; };
+		D0128C8C1DBAD3B8000D770D /* Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		D09D61F41DBB48140021CC8A /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		D0ACAA4D1DBB205D002574E3 /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
+		D0ACAA4E1DBB205D002574E3 /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
+		D0ACAA4F1DBB205D002574E3 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		D0ACAA501DBB205D002574E3 /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
+		D0ACAA511DBB205D002574E3 /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
+		D0ACAA521DBB205D002574E3 /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
+		D0ACAA531DBB205D002574E3 /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
+		D0ACAA541DBB205D002574E3 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		D0ACAA551DBB205D002574E3 /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
+		D0ACAA561DBB205D002574E3 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
 		D0B77C631DBA51BB00D2B5AF /* Aqua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aqua.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B77C661DBA51BB00D2B5AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D0B77C681DBA51BB00D2B5AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0B77C681DBA51BB00D2B5AF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D0B77C6B1DBA51BB00D2B5AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D0B77C6D1DBA51BB00D2B5AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0B77C701DBA51BB00D2B5AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0B77C721DBA51BB00D2B5AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0C9F7BE1DBA62220090C04A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D0C9F7C01DBA62FC0090C04A /* SpeechManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechManager.swift; sourceTree = "<group>"; };
+		D0C9F7C21DBAB0D80090C04A /* SKSConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKSConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +71,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0C9F7BF1DBA62220090C04A /* AVFoundation.framework in Frameworks */,
+				5418194C7CD0493E6AA5135E /* Pods_Aqua.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BE4B4BFA1DCDC77E125513A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C42EB149B0B48BE745F3B01F /* Pods-Aqua.debug.xcconfig */,
+				4E64CC4B3327DD3E47B19971 /* Pods-Aqua.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D0ACAA4C1DBB2036002574E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D01260CA1DBBD5EB001941E7 /* sk_error.pcm */,
+				D01260CB1DBBD5EB001941E7 /* sk_start.pcm */,
+				D01260CC1DBBD5EB001941E7 /* sk_stop.pcm */,
+				D0ACAA4D1DBB205D002574E3 /* Rubik-Black.ttf */,
+				D0ACAA4E1DBB205D002574E3 /* Rubik-BlackItalic.ttf */,
+				D0ACAA4F1DBB205D002574E3 /* Rubik-Bold.ttf */,
+				D0ACAA501DBB205D002574E3 /* Rubik-BoldItalic.ttf */,
+				D0ACAA511DBB205D002574E3 /* Rubik-Italic.ttf */,
+				D0ACAA521DBB205D002574E3 /* Rubik-Light.ttf */,
+				D0ACAA531DBB205D002574E3 /* Rubik-LightItalic.ttf */,
+				D0ACAA541DBB205D002574E3 /* Rubik-Medium.ttf */,
+				D0ACAA551DBB205D002574E3 /* Rubik-MediumItalic.ttf */,
+				D0ACAA561DBB205D002574E3 /* Rubik-Regular.ttf */,
+			);
+			name = Resources;
+			path = Aqua;
+			sourceTree = "<group>";
+		};
 		D0B77C5A1DBA51BB00D2B5AF = {
 			isa = PBXGroup;
 			children = (
 				D0B77C651DBA51BB00D2B5AF /* Aqua */,
+				D0ACAA4C1DBB2036002574E3 /* Resources */,
 				D0B77C641DBA51BB00D2B5AF /* Products */,
+				D0C9F7BD1DBA62220090C04A /* Frameworks */,
+				1BE4B4BFA1DCDC77E125513A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +131,28 @@
 		D0B77C651DBA51BB00D2B5AF /* Aqua */ = {
 			isa = PBXGroup;
 			children = (
+				D0C9F7C21DBAB0D80090C04A /* SKSConfiguration.swift */,
 				D0B77C661DBA51BB00D2B5AF /* AppDelegate.swift */,
-				D0B77C681DBA51BB00D2B5AF /* ViewController.swift */,
+				D0B77C681DBA51BB00D2B5AF /* MainViewController.swift */,
 				D0B77C6A1DBA51BB00D2B5AF /* Main.storyboard */,
 				D0B77C6D1DBA51BB00D2B5AF /* Assets.xcassets */,
 				D0B77C6F1DBA51BB00D2B5AF /* LaunchScreen.storyboard */,
 				D0B77C721DBA51BB00D2B5AF /* Info.plist */,
+				D0128C8C1DBAD3B8000D770D /* Animation.swift */,
+				D09D61F41DBB48140021CC8A /* NetworkManager.swift */,
+				D0C9F7C01DBA62FC0090C04A /* SpeechManager.swift */,
+				D01260C81DBBA621001941E7 /* Helpers+Extensions.swift */,
 			);
 			path = Aqua;
+			sourceTree = "<group>";
+		};
+		D0C9F7BD1DBA62220090C04A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0C9F7BE1DBA62220090C04A /* AVFoundation.framework */,
+				9A78754529DE0FC60789D532 /* Pods_Aqua.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D0B77C751DBA51BB00D2B5AF /* Build configuration list for PBXNativeTarget "Aqua" */;
 			buildPhases = (
+				1F67FD97F8BAD1D288972DFD /* [CP] Check Pods Manifest.lock */,
 				D0B77C5F1DBA51BB00D2B5AF /* Sources */,
 				D0B77C601DBA51BB00D2B5AF /* Frameworks */,
 				D0B77C611DBA51BB00D2B5AF /* Resources */,
+				B4CA2F3194DBC68A610764D4 /* [CP] Embed Pods Frameworks */,
+				783DB4CC09428137F544B166 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +190,7 @@
 				TargetAttributes = {
 					D0B77C621DBA51BB00D2B5AF = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = RWBS3K74YM;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,20 +218,86 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0ACAA581DBB205D002574E3 /* Rubik-BlackItalic.ttf in Resources */,
+				D0ACAA5D1DBB205D002574E3 /* Rubik-LightItalic.ttf in Resources */,
+				D0ACAA591DBB205D002574E3 /* Rubik-Bold.ttf in Resources */,
 				D0B77C711DBA51BB00D2B5AF /* LaunchScreen.storyboard in Resources */,
 				D0B77C6E1DBA51BB00D2B5AF /* Assets.xcassets in Resources */,
+				D0ACAA5C1DBB205D002574E3 /* Rubik-Light.ttf in Resources */,
+				D0ACAA5B1DBB205D002574E3 /* Rubik-Italic.ttf in Resources */,
+				D0ACAA5F1DBB205D002574E3 /* Rubik-MediumItalic.ttf in Resources */,
+				D0ACAA571DBB205D002574E3 /* Rubik-Black.ttf in Resources */,
+				D01260CD1DBBD5EB001941E7 /* sk_error.pcm in Resources */,
+				D0ACAA5A1DBB205D002574E3 /* Rubik-BoldItalic.ttf in Resources */,
+				D0ACAA601DBB205D002574E3 /* Rubik-Regular.ttf in Resources */,
+				D01260CF1DBBD5EB001941E7 /* sk_stop.pcm in Resources */,
+				D01260CE1DBBD5EB001941E7 /* sk_start.pcm in Resources */,
+				D0ACAA5E1DBB205D002574E3 /* Rubik-Medium.ttf in Resources */,
 				D0B77C6C1DBA51BB00D2B5AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F67FD97F8BAD1D288972DFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		783DB4CC09428137F544B166 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aqua/Pods-Aqua-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4CA2F3194DBC68A610764D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aqua/Pods-Aqua-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D0B77C5F1DBA51BB00D2B5AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0B77C691DBA51BB00D2B5AF /* ViewController.swift in Sources */,
+				D09D61F51DBB48140021CC8A /* NetworkManager.swift in Sources */,
+				D0C9F7C11DBA62FC0090C04A /* SpeechManager.swift in Sources */,
+				D0B77C691DBA51BB00D2B5AF /* MainViewController.swift in Sources */,
+				D01260C91DBBA621001941E7 /* Helpers+Extensions.swift in Sources */,
+				D0C9F7C31DBAB0D80090C04A /* SKSConfiguration.swift in Sources */,
+				D0128C8D1DBAD3B8000D770D /* Animation.swift in Sources */,
 				D0B77C671DBA51BB00D2B5AF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,11 +417,13 @@
 		};
 		D0B77C761DBA51BB00D2B5AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C42EB149B0B48BE745F3B01F /* Pods-Aqua.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RWBS3K74YM;
 				INFOPLIST_FILE = Aqua/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hugeinc.Aqua;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugeinc.Aqua.ear;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -268,11 +431,13 @@
 		};
 		D0B77C771DBA51BB00D2B5AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E64CC4B3327DD3E47B19971 /* Pods-Aqua.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RWBS3K74YM;
 				INFOPLIST_FILE = Aqua/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hugeinc.Aqua;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hugeinc.Aqua.ear;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -297,6 +462,7 @@
 				D0B77C771DBA51BB00D2B5AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

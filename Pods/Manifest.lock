@@ -1,0 +1,39 @@
+PODS:
+  - Alamofire (4.0.1)
+  - ApiAI (0.5.5):
+    - ApiAI/AudioFileConverter (= 0.5.5)
+    - ApiAI/Core (= 0.5.5)
+    - ApiAI/ResponseMapping (= 0.5.5)
+    - ApiAI/UIKit (= 0.5.5)
+    - ApiAI/UserEntities (= 0.5.5)
+    - ApiAI/VoiceFileRequest (= 0.5.5)
+    - ApiAI/VoiceRequest (= 0.5.5)
+  - ApiAI/AudioFileConverter (0.5.5):
+    - ApiAI/Core
+  - ApiAI/Core (0.5.5)
+  - ApiAI/ResponseMapping (0.5.5):
+    - ApiAI/Core
+  - ApiAI/UIKit (0.5.5):
+    - ApiAI/Core
+    - ApiAI/VoiceRequest
+  - ApiAI/UserEntities (0.5.5):
+    - ApiAI/Core
+  - ApiAI/VoiceFileRequest (0.5.5):
+    - ApiAI/Core
+  - ApiAI/VoiceRequest (0.5.5):
+    - ApiAI/Core
+  - SpeechKit (2.1.7)
+
+DEPENDENCIES:
+  - Alamofire
+  - ApiAI
+  - SpeechKit
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  ApiAI: f812efe6bff8b6d980b15ffd40c3e74ae8f467c4
+  SpeechKit: 62717350ae29e7002a8ac35970ce92dccf2d1b71
+
+PODFILE CHECKSUM: 018f105e7a1c4b3352d8770d284cc8cf0c29b906
+
+COCOAPODS: 1.1.0.rc.2

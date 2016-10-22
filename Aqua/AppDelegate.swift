@@ -7,14 +7,33 @@
 //
 
 import UIKit
+import AVFoundation
+import ApiAI
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        let session = AVAudioSession.sharedInstance()
+        
+        do {
+            try session.setCategory(AVAudioSessionCategoryPlayAndRecord)
+            try session.setActive(true)
+        } catch {
+            // same error
+        }
+        
+        let apiai = ApiAI.shared
+        let configuration: AIConfiguration = AIDefaultConfiguration()
+        
+        configuration.clientAccessToken = "507f46ddea0e458aaa055f1eb085bb86"
+        
+        apiai().configuration = configuration
+        
         // Override point for customization after application launch.
         return true
     }
